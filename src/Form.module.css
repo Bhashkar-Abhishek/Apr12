@@ -1,0 +1,55 @@
+.mainDiv{
+  background-color: #ffba08;
+  height: 100vh;
+  padding-top: 1em;
+  text-align: center;
+}
+.formDataDiv{
+  background-color:#a7c957;
+  width: 100%;
+  height: 41vh;
+  display: flex;
+  justify-content: space-between;
+}
+.formDiv{
+
+  background-color: #a7c957;
+  border: 4px solid;
+  width: 45%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.liveDataDiv{
+  background-color: #a7c957;
+  border: 4px solid;
+  width: 45%;
+  height: 40vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.tableDiv{
+background-color: #6a994e;
+width: 100%;
+height: 40vh;
+margin-top: 5rem;
+padding-top: 2rem;
+}
+.table{
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+span{
+  cursor: pointer;
+  margin-left: 10px;
+}
